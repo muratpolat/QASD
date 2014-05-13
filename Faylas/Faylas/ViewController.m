@@ -17,18 +17,23 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-<<<<<<< HEAD
 	NSLog(@"Muratın amına ");
-=======
-
+    NSLog(@"test");
+    NSLog(@"marika");
 	
     // Do any additional setup after loading the view, typically from a nib.
->>>>>>> c994308b0e6dcd80b6d3a9f594c85f92d2580473
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
+    NSLog(@"test");
+
+    NSLog(@"test");
+    NSLog(@"test");
+
+    NSLog(@"test");
+
     // Dispose of any resources that can be recreated.
 }
 
