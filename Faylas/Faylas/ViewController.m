@@ -17,7 +17,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+<<<<<<< HEAD
 	NSLog(@"Muratın amına ");
+=======
+
+	
+    // Do any additional setup after loading the view, typically from a nib.
+>>>>>>> c994308b0e6dcd80b6d3a9f594c85f92d2580473
 }
 
 - (void)didReceiveMemoryWarning
