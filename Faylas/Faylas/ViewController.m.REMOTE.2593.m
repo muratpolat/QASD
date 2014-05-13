@@ -17,6 +17,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+
 	NSLog(@"Muratın amına ");
     NSLog(@"Test12212");
 
@@ -27,13 +28,6 @@
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    NSLog(@"test");
-
-    NSLog(@"test");
-    NSLog(@"test");
-
-    NSLog(@"test");
-
     // Dispose of any resources that can be recreated.
 }
 

@@ -18,10 +18,10 @@
 {
     [super viewDidLoad];
 	NSLog(@"Muratın amına ");
-    NSLog(@"Test12212");
-
+    NSLog(@"test");
+    NSLog(@"marika");
 	
-
+    // Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)didReceiveMemoryWarning
