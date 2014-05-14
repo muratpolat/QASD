@@ -12,7 +12,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    NSLog(@"test");
+    
+    [Parse setApplicationId:@"pw95wQsjygL5qroRsFvTBZC0BGBQ1mN9ZPPUHw12"
+                  clientKey:@"o97nDJykfqaYDfafdTH7TbMYQHn2GZjJHwqUVop9"];
+
+    self.window.backgroundColor = [UIColor whiteColor];
     return YES;
 }
 							

@@ -22,6 +22,13 @@
 		044B7615192265FB005F8050 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 044B75F4192265FB005F8050 /* UIKit.framework */; };
 		044B761D192265FB005F8050 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 044B761B192265FB005F8050 /* InfoPlist.strings */; };
 		044B761F192265FB005F8050 /* FaylasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 044B761E192265FB005F8050 /* FaylasTests.m */; };
+		04C75A091923636100EA1119 /* bakbi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04C75A081923636100EA1119 /* bakbi.jpg */; };
+		04C75A31192384C200EA1119 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C75A30192384C200EA1119 /* Parse.framework */; };
+		04C75A33192384EE00EA1119 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C75A32192384EE00EA1119 /* Accounts.framework */; };
+		04C75A37192385D300EA1119 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C75A36192385D300EA1119 /* SystemConfiguration.framework */; };
+		04C75A391923862600EA1119 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C75A381923862600EA1119 /* CFNetwork.framework */; };
+		04C75A3B1923866700EA1119 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C75A3A1923866700EA1119 /* MobileCoreServices.framework */; };
+		04C75A3E192398D000EA1119 /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C75A3D192398D000EA1119 /* Home.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +62,14 @@
 		044B761A192265FB005F8050 /* FaylasTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FaylasTests-Info.plist"; sourceTree = "<group>"; };
 		044B761C192265FB005F8050 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		044B761E192265FB005F8050 /* FaylasTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaylasTests.m; sourceTree = "<group>"; };
+		04C75A081923636100EA1119 /* bakbi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bakbi.jpg; sourceTree = "<group>"; };
+		04C75A30192384C200EA1119 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		04C75A32192384EE00EA1119 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		04C75A36192385D300EA1119 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		04C75A381923862600EA1119 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		04C75A3A1923866700EA1119 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		04C75A3C192398D000EA1119 /* Home.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
+		04C75A3D192398D000EA1119 /* Home.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Home.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +77,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04C75A3B1923866700EA1119 /* MobileCoreServices.framework in Frameworks */,
+				04C75A391923862600EA1119 /* CFNetwork.framework in Frameworks */,
+				04C75A37192385D300EA1119 /* SystemConfiguration.framework in Frameworks */,
+				04C75A33192384EE00EA1119 /* Accounts.framework in Frameworks */,
 				044B75F3192265FB005F8050 /* CoreGraphics.framework in Frameworks */,
 				044B75F5192265FB005F8050 /* UIKit.framework in Frameworks */,
+				04C75A31192384C200EA1119 /* Parse.framework in Frameworks */,
 				044B75F1192265FB005F8050 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -103,6 +123,11 @@
 		044B75EF192265FB005F8050 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				04C75A3A1923866700EA1119 /* MobileCoreServices.framework */,
+				04C75A381923862600EA1119 /* CFNetwork.framework */,
+				04C75A36192385D300EA1119 /* SystemConfiguration.framework */,
+				04C75A32192384EE00EA1119 /* Accounts.framework */,
+				04C75A30192384C200EA1119 /* Parse.framework */,
 				044B75F0192265FB005F8050 /* Foundation.framework */,
 				044B75F2192265FB005F8050 /* CoreGraphics.framework */,
 				044B75F4192265FB005F8050 /* UIKit.framework */,
@@ -116,6 +141,8 @@
 			children = (
 				044B75FF192265FB005F8050 /* AppDelegate.h */,
 				044B7600192265FB005F8050 /* AppDelegate.m */,
+				04C75A3C192398D000EA1119 /* Home.h */,
+				04C75A3D192398D000EA1119 /* Home.m */,
 				044B7602192265FB005F8050 /* Main_iPhone.storyboard */,
 				044B7605192265FB005F8050 /* Main_iPad.storyboard */,
 				044B7608192265FB005F8050 /* ViewController.h */,
@@ -129,6 +156,7 @@
 		044B75F7192265FB005F8050 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				04C75A081923636100EA1119 /* bakbi.jpg */,
 				044B75F8192265FB005F8050 /* Faylas-Info.plist */,
 				044B75F9192265FB005F8050 /* InfoPlist.strings */,
 				044B75FC192265FB005F8050 /* main.m */,
@@ -235,6 +263,7 @@
 				044B760C192265FB005F8050 /* Images.xcassets in Resources */,
 				044B7604192265FB005F8050 /* Main_iPhone.storyboard in Resources */,
 				044B75FB192265FB005F8050 /* InfoPlist.strings in Resources */,
+				04C75A091923636100EA1119 /* bakbi.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +284,7 @@
 			files = (
 				044B760A192265FB005F8050 /* ViewController.m in Sources */,
 				044B7601192265FB005F8050 /* AppDelegate.m in Sources */,
+				04C75A3E192398D000EA1119 /* Home.m in Sources */,
 				044B75FD192265FB005F8050 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -390,9 +420,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Faylas/Faylas-Prefix.pch";
 				INFOPLIST_FILE = "Faylas/Faylas-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(SDKROOT)/usr/lib/system",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -403,9 +442,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Faylas/Faylas-Prefix.pch";
 				INFOPLIST_FILE = "Faylas/Faylas-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(SDKROOT)/usr/lib/system",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -470,6 +518,7 @@
 				044B7624192265FB005F8050 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		044B7625192265FB005F8050 /* Build configuration list for PBXNativeTarget "FaylasTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +527,7 @@
 				044B7627192265FB005F8050 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
